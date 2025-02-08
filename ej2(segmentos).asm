@@ -1,4 +1,4 @@
-TITLE ESTRUCTURA_BASICA
+TITLE SEGMENTOS
 
 Datos SEGMENT
 ; Declarar las variables aqui
