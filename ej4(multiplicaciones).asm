@@ -1,4 +1,4 @@
-TITLE ESTRUCTURA_BASICA
+TITLE MULTIPLICACIONES
 
 Datos SEGMENT
 ; Declarar las variables aqui
