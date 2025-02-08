@@ -1,4 +1,4 @@
-TITLE ESTRUCTURA_BASICA
+TITLE SUMAS_Y_RESTAS
 
 Datos SEGMENT
 ; Declarar las variables aqui
