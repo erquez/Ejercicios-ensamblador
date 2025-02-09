@@ -51,7 +51,7 @@ MUL BL
 MOV AX,300
 MOV BX,500
 MUL BX
-;Resultado en AX = 49,F0 y DX =00,02 es decir, el resultado es 0249F0 = 150000 (concatenar DX con AX)
+;Resultado en DX =0002 y AX = 49F0 es decir, el resultado es 0249F0 = 150000 (concatenar DX con AX)
 
 
 
