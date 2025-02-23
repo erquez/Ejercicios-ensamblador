@@ -1,4 +1,4 @@
-TITLE MULTIPLICACIONES
+TITLE MULTIPLICACION
 
 Datos SEGMENT
 ; Declarar las variables aqui
@@ -27,15 +27,9 @@ MOV DS,AX
 MOV ES,AX
 ;Codigo abajo-->
 
-;Suma
-MOV AL,5 ;despues de esto, AL tendra el valor 5
-ADD AL,7 ;despues de esto AL tendra el valor 12 (el valor max es 255 ya que AL tiene 8 bits)
 
-;Resta
-MOV AL,5 ;despues de esto, AL=5
-SUB AL,3 ;despues de esto, AL=2 
+;Multiplicacion:  
 
-;Multiplicacion
 ;Resultado tipo Byte = Se almacena en AX (8 bits,255 valor max)
 MOV AL,255
 MOV BL,255
@@ -46,6 +40,7 @@ MOV AX,300
 MOV BX,500
 MUL BX
 ;Resultado en DX =0002 y AX = 49F0 es decir, el resultado es 0249F0 = 150000 (concatenar DX con AX)
+
 
 RET
 Inicio ENDP
