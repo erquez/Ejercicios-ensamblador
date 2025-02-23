@@ -40,9 +40,9 @@ MOV BL,55
 
 NO_CERO:
 MOV BL,33
+
+
 ;En caso de que no sean iguales:
-
-
 ;Menor: se activa la SF(sign flag), lo que significa que es menor.
 MOV AL,7
 CMP AL,8
